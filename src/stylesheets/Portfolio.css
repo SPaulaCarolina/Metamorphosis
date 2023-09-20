@@ -1,0 +1,13 @@
+.container {
+    min-height: 580px;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    margin-top: 20px;
+}
+.card-gp {
+    margin: 20px auto;
+    padding: 10px 20px;
+}

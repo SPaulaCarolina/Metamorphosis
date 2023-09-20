@@ -1,0 +1,77 @@
+.nav {
+    position: fixed;
+    top: -1%;
+    left: -1%;
+    z-index: 1;
+}
+
+.menu {
+    background-color: black;
+    color: white;
+    box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.61);
+    position: absolute;
+    border-radius: 0 0 10px 0;
+    top: 50px;
+    height: 200px;
+    width: 80px;
+    left: -72px;
+    transition: all 500ms linear;
+}
+
+.menu.active {
+    left: 0px;
+}
+
+.btn-icon {
+    margin: 20px;
+    position: absolute;
+    background-color: transparent;
+    box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.61);
+}
+.link {
+    background-color: transparent;
+    text-decoration: none;
+    color: rgb(0, 1, 15);
+}
+
+.link:hover {
+    color: #703d6f;
+}
+
+.nav-arrow {
+    background-color: black;
+    box-shadow: 3px 3px 6px 3px rgba(0,0,0,0.61);
+    width: 20px;
+    height: 40px;
+    text-align: right;
+    padding: 2.5px 5px 0 0;
+    border-radius: 0 10px 10px 0;
+    position: absolute;
+    left: 80px;
+    cursor: pointer;
+    color: white;
+}
+
+.items {
+    position: relative;
+    text-align: left;
+    display: block;
+    padding: 10px auto;
+    margin: 20px auto;
+}
+
+.navicon {
+    margin: auto 10px;
+}
+
+.icon {
+    width: auto;
+    height: 36px;
+    margin: auto;
+}
+
+.icon-sub {
+    color: white;
+    width: auto;
+    height: 26px;
+}

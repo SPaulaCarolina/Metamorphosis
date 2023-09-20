@@ -1,0 +1,25 @@
+.logo-container {
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex: 0 60%;
+}
+
+.logo {
+    width: 100%;
+    animation-name: blurred;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+    filter: blur(0);
+}
+
+@keyframes blurred {
+    0% { filter: blur(1px); }
+    25% { filter: blur(2px); }
+    50% { filter: blur(4px); }
+    75% { filter: blur(2px); }
+    100% { filter: blur(1px); }
+}

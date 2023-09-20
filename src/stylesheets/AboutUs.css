@@ -1,0 +1,26 @@
+.section {
+    background-color: rgb(81, 112, 138);
+    min-width: 100%;
+    min-height: 580px;
+    margin: 0;
+    padding: 0;
+}
+
+.section-nav {
+    height: 50px;
+    margin: 20px 80px;
+    padding: 10px 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 36px;
+}
+
+.section-nav img {
+    margin-right: 10px;
+}
+
+.title {
+    margin: 20px auto;
+}
